@@ -15,19 +15,19 @@ public class User {
 	private String email;
 	private String password;
 	private String phone;
-	private String role;
+//	private String role;
 	
 	// REQUIRED for Hibernate
     public User() {
     }
     
-	public User(String name, String email, String password, String phone, String role) {
+	public User(String name, String email, String password, String phone) {
 		super();
 		this.name = name;
 		this.email = email;
 		this.password = password;
 		this.phone = phone;
-		this.role = role;
+//		this.role = role;
 	}
 
 	public Long getId() {
@@ -70,14 +70,14 @@ public class User {
 		this.phone = phone;
 	}
 
-	public String getRole() {
-		return role;
-	}
-
-	public void setRole(String role) {
-		this.role = role;
-	}
-	
+//	public String getRole() {
+//		return role;
+//	}
+//
+//	public void setRole(String role) {
+//		this.role = role;
+//	}
+//	
 	
 
 }

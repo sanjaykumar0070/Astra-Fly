@@ -22,7 +22,7 @@ public class AuthController {
 	@PostMapping("/register")
 	public User register(@RequestBody User user) {
 		
-		user.setRole("USER");
+//		user.setRole("USER");
 		return userService.register(user);
 	}
 	
